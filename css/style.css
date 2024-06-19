@@ -1,0 +1,418 @@
+                                                                                                                                                                                                                      * {
+	margin: 0;
+	padding: 0;
+	font-family: 'Jura';
+	font-style: normal;
+}
+
+/*Стиль першого блоку "Україна після перемоги"*/
+
+.container1 {
+	padding: 20px;
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+}
+.textsect {
+	display: inline-block;
+}
+.block1 {
+	width: 386px;
+	height: 60px;
+	margin-bottom: 100px;
+}
+.a {
+	float: left;
+	text-decoration: none;
+	margin-right: 10px;
+	margin-top: 17px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: #006AA7;
+}
+.heart {
+	float: right;
+}
+.ukr {
+	font-weight: 700;
+	font-size: 100px;
+	color: #000000;
+	line-height: 118px;
+}
+.aftw {
+	font-weight: 700;
+	font-size: 50px;
+	color: #000000;
+	line-height: 59px;
+	margin-bottom: 20px;
+}
+.text1 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	margin-bottom: 15px;
+}
+.button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	background: #006AA7;
+	padding: 12px;
+	width: 360px;
+	box-shadow: 2px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.button_text {
+	color: white;
+	text-decoration: none;
+	margin-left: 50px;
+}
+.button:hover {
+	background: #F9C00D;
+}
+.button_text:hover {
+	color: blue;
+}
+.statuya {
+	display: inline-block;
+	float: right;
+}
+
+/*Стиль другого блоку "Минуле. Формування ментальності українців"*/
+
+.container2 {
+	width: 1200px;
+	height: 400px;
+	background: #F5F5F5;
+	padding: 40px;
+	margin: 0 auto;
+}
+.card {
+	width: 250px;
+	height: 240px;
+	display: inline-block;
+	background: #FFFFFF;
+	padding: 10px;
+	margin-right: 7px;
+}
+.card:hover {
+	background: #006AA7;
+	color: #FFFFFF;
+}
+.title {
+	font-style: normal;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.cardtitle, .cardtext1{
+	margin-bottom: 10px;
+}
+.cardcontainer {
+	float: right;
+	height: 40px;
+	margin-top: 40px;
+}
+.cardtext2, .cardimage2 {
+	display: inline-block;
+}
+.cardimage2 {
+	float: right;
+}
+.cardtext2 {
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+/*Стиль третього блоку "Українське козацтво"*/
+
+.container3 {
+	width: 1240px;
+	height: 310px;
+	margin: 0 auto;
+}
+.kozakititle {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.kozakicard:hover {
+	background: #006AA7;;
+	color: white;
+}
+.textcontainer {
+	width: 366px;
+	height: 119px;
+	display: inline-block;
+}
+.kozakicard {
+	width: 270px;
+	height: 180px;
+	border: 1px solid #808080;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	border-radius: 5px;
+}
+.kozakicardbig {
+	width: 530px;
+	height: 180px;
+	border: 1px solid #808080;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+.kctitle {
+	font-size: 16px;
+	font-style: bold;
+	margin-bottom: 5px;
+}
+.kcbtitle {
+	font-size: 25px;
+	font-style: normal;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+.kcbtext {
+	margin-left: 10px;
+}
+.kctext {
+	font-size: 16px;
+}
+.kozakiimage {
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+/*Стиль четвертого блоку "Прагнення до неба"*/
+
+.container4 {
+	width: 1240px;
+	height: 450px;
+	background: #F9C00D;
+	padding: 20px;
+	margin: 0 auto;
+}
+.mriyatitle {
+	text-align: center;
+	margin-bottom: 35px;
+}
+.mriyatextcontainer {
+	display: inline-block;
+}
+.mriyatitle, .mriyatext {
+	color: black;
+	font-size: 19px;
+}
+.mriyatext {
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.mriyabutton {
+	font-size: 16px;
+}
+.mriyabutton {
+	width: 200px;
+	height: 34px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 12px;
+}
+.mriyaimage {
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+}
+
+/*Стиль блоку "Сьогодення: період трансформації"*/
+
+.container5 {
+	margin: 0 auto;
+	margin-top: 102px;
+	text-align: center;
+}
+.todaytitle1 {
+	font-size: 16px;
+	text-align: center;
+}
+.todaytitle2 {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.todaysect {
+	display: inline-block;
+	vertical-align: top;
+	width: 260px;
+	height: 150px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+.todaysect:first-child {
+	margin-left: 50px;
+}
+.todaysecttext { 
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+/*Стиль блоку "Продовжуємо жити"*/
+
+.container6 {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 35px;
+}
+.continuelivetitle {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.continueliveimage {
+	margin-right: 17px;
+	width: 200px;
+	height: 160px;
+}
+
+/*Стиль блоку з Зеленським*/
+
+.zelenskiyblueblock {
+	padding: 50px;
+	width: 700px;
+	height: 150px;
+	background: #006AA7;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.zelenskiytextcontainer {
+	display: inline-block;
+}
+.zelenskiytext {
+	color: white;
+	font-size: 30px;
+}
+.zelenskiyimage {
+	display: inline-block;
+	float: right;
+}
+
+/*Стиль блоків з побажаннями*/
+
+.container7 {
+	width: 1240px;
+	height: 390px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.ybctitle {
+	font-size: 24px;
+	text-align: center;
+}
+.ybctext {
+	font-size: 16px;
+	text-align: center;
+}
+.yellowblock {
+	background: #F9C00D;
+	border-radius: 7px;
+	display: inline-block;
+	height: 120px;
+	width: 350px;
+	vertical-align: top;
+	margin: 5px;
+	padding: 15px;
+}
+.ybtcontainer {
+	display: inline-block;
+	width: 218px;
+	height: 51px;
+	float: right;
+	margin-top: 10px;
+}
+.ybimage {
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+/*Стиль блоку "Майбутнє"*/
+
+.container8 {
+	margin: 0 auto;
+	width: 1240px;
+	height: 630px;
+	background: #F5F5F5;
+}
+.maibtitle {
+	font-size: 24px;
+	text-align: center;
+}
+.maibtitle:nth-child(2) {
+	margin-bottom: 20px;
+}
+.maibsect {
+	width: 340px;
+	height: 230px;
+	padding: 15px;
+	background: white;
+	display: inline-block;
+	float: left;
+	margin-left: 27px;
+	margin-bottom: 27px;
+}
+.maibsect:hover {
+	background: #006AA7;
+	color: white;
+}
+.maibsecttext {
+	font-size: 16px;
+}
+.bigmaibsect {
+	margin: 0;
+	width: 520px;
+	height: 200px;
+	margin-left: 27px;
+}
+
+/*Стиль блоку "Ми нація вільних людей"*/
+
+.container9 {
+	margin: 0 auto;
+	width: 1240px;
+	height: 270px;
+	background: #F5F5F5;
+}
+.titlecontainer9block {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 19px;
+}
+.container9image {
+	margin-left: 23px;
+}
+
+/*Стиль блоку з патріотичними наліпками*/
+
+.container10 {
+	margin: 0 auto;
+	background: #F5F5F5;
+	width: 1240px;
+}
+.patriotnaltitle {
+	text-align: center;
+	font-size: 19px;
+	margin-bottom: 20px;
+}
+.patriotichni_nalipki {
+	width: 200px;
+	height: 200px;
+}
